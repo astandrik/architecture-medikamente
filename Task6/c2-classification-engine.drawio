@@ -25,7 +25,7 @@
         <mxCell id="0Zl4UC_AiR9DKdUfgy3x-295" parent="0Zl4UC_AiR9DKdUfgy3x-291" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Лаборатория&lt;br&gt;направления и результаты анализов" vertex="1">
           <mxGeometry height="75" width="260" x="35" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-296" parent="0Zl4UC_AiR9DKdUfgy3x-291" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Платежи / 1С / ККМ&lt;br&gt;FIN, чеки, проводки, ТМЦ" vertex="1">
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-296" parent="0Zl4UC_AiR9DKdUfgy3x-291" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Платежи / 1С / ККМ&lt;br&gt;и 1С бэк-офис&lt;br&gt;FIN/HR/OPS, чеки, проводки, ТМЦ" vertex="1">
           <mxGeometry height="75" width="260" x="35" y="485" as="geometry" />
         </mxCell>
         <mxCell id="0Zl4UC_AiR9DKdUfgy3x-297" parent="0Zl4UC_AiR9DKdUfgy3x-291" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Пакетные выгрузки и события&lt;br&gt;legacy, 1С, CRM, API" vertex="1">
