@@ -34,7 +34,7 @@
         <mxCell id="0Zl4UC_AiR9DKdUfgy3x-74" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Аудит платежей&lt;br&gt;касса, 1С, ККМ, сверка Excel/1С" vertex="1">
           <mxGeometry height="90" width="230" x="1996.25" y="1280.75" as="geometry" />
         </mxCell>
-        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-75" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Защита FIN&lt;br&gt;шифрование, RBAC, резервные копии, TLS/TCP" vertex="1">
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-75" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Защита FIN&lt;br&gt;шифрование, RBAC, резервные копии, TLS для TCP/IP" vertex="1">
           <mxGeometry height="90" width="230" x="1670" y="880" as="geometry" />
         </mxCell>
         <mxCell id="0Zl4UC_AiR9DKdUfgy3x-76" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Платёжный поток должен передавать финансовые данные без медицинского содержания услуги, кроме минимального кода услуги или договора." vertex="1">

@@ -28,7 +28,7 @@
         <mxCell id="0Zl4UC_AiR9DKdUfgy3x-29" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Выдача пациенту&lt;br&gt;заключение / результат" vertex="1">
           <mxGeometry height="80" width="180" x="1240.9953846153844" y="999.9969230769232" as="geometry" />
         </mxCell>
-        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-30" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="PHI access control&lt;br&gt;врач видит своих пациентов, ресепшен не видит диагнозы" vertex="1">
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-30" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Контроль доступа к PHI&lt;br&gt;врач видит своих пациентов, ресепшен не видит диагнозы" vertex="1">
           <mxGeometry height="100" width="230" x="1579.9953846153844" y="939.996923076923" as="geometry" />
         </mxCell>
         <mxCell id="0Zl4UC_AiR9DKdUfgy3x-31" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Аудит и целостность&lt;br&gt;кто смотрел, менял, печатал, выгружал" vertex="1">
