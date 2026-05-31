@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36">
+  <diagram name="Security C4" id="4OQ3w0hdlbJCGafsHlii">
+    <mxGraphModel dx="1437" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;" value="DFD 02. Приём врача и ведение медицинской карты" vertex="1">
+          <mxGeometry height="40" width="760" x="929.9953846153845" y="749.996923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-23" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="Пациент&lt;br&gt;внешний субъект" vertex="1">
+          <mxGeometry height="80" width="150" x="379.9953846153845" y="1054.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-24" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Врач&lt;br&gt;осмотр, диагноз, назначения" vertex="1">
+          <mxGeometry height="110" width="200" x="649.9953846153845" y="1039.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-25" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Ресепшен&lt;br&gt;видит запись и статус" vertex="1">
+          <mxGeometry height="80" width="200" x="649.9953846153845" y="1394.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-26" parent="1" style="shape=cylinder3;html=1;whiteSpace=wrap;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="Медицинская карта&lt;br&gt;PHI, PII, RAW" vertex="1">
+          <mxGeometry height="100" width="190" x="1059.9953846153844" y="839.996923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-27" parent="1" style="shape=cylinder3;html=1;whiteSpace=wrap;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="Сканы JPG/PDF&lt;br&gt;заключения, назначения" vertex="1">
+          <mxGeometry height="100" width="190" x="919.9953846153844" y="1168.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-28" parent="1" style="shape=cylinder3;html=1;whiteSpace=wrap;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="Exchange / Outlook&lt;br&gt;возможная пересылка" vertex="1">
+          <mxGeometry height="90" width="190" x="919.9953846153844" y="1389.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-29" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Выдача пациенту&lt;br&gt;заключение / результат" vertex="1">
+          <mxGeometry height="80" width="180" x="1240.9953846153844" y="999.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-30" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="PHI access control&lt;br&gt;врач видит своих пациентов, ресепшен не видит диагнозы" vertex="1">
+          <mxGeometry height="100" width="230" x="1579.9953846153844" y="939.996923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-31" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Аудит и целостность&lt;br&gt;кто смотрел, менял, печатал, выгружал" vertex="1">
+          <mxGeometry height="90" width="230" x="1579.9953846153844" y="1119.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-32" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Защита PHI&lt;br&gt;шифрование, DLP, запрет сырых PHI в аналитике" vertex="1">
+          <mxGeometry height="90" width="230" x="1579.9953846153844" y="1279.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-33" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Процесс содержит наиболее чувствительные PHI. Все просмотры и изменения медицинской карты должны быть журналированы." vertex="1">
+          <mxGeometry height="50" width="620" x="529.9953846153845" y="1569.9969230769232" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-34" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;" target="0Zl4UC_AiR9DKdUfgy3x-24" value="жалобы, анамнез, PHI">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-35" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;" target="0Zl4UC_AiR9DKdUfgy3x-26" value="создание/обновление медкарты">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-36" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;" target="0Zl4UC_AiR9DKdUfgy3x-27" value="скан заключения / назначения">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-37" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;" target="0Zl4UC_AiR9DKdUfgy3x-25" value="статус посещения без PHI">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-38" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;" target="0Zl4UC_AiR9DKdUfgy3x-29" value="заключение пациенту">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-39" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;" target="0Zl4UC_AiR9DKdUfgy3x-28" value="риск пересылки PHI">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-40" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;strokeColor=#82b366;" target="0Zl4UC_AiR9DKdUfgy3x-30" value="ограничить по роли и пациенту">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-41" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;strokeColor=#82b366;" target="0Zl4UC_AiR9DKdUfgy3x-31" value="журналировать операции">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215" y="1060" />
+              <mxPoint x="1215" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Zl4UC_AiR9DKdUfgy3x-42" edge="1" parent="1" source="0Zl4UC_AiR9DKdUfgy3x-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;orthogonalLoop=1;jettySize=auto;html=1;whiteSpace=wrap;strokeColor=#82b366;" target="0Zl4UC_AiR9DKdUfgy3x-32" value="DLP и шифрование">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
